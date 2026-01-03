@@ -12,7 +12,9 @@ The recommended way to build MySQL for developers:
 
 cd <some build directory>
 cmake <path to source directory>
-make
+make, 
+
+ 
 
 This will give you a release build, with compiler options taken from
 ../cmake/build_configurations/compiler_options.cmake
